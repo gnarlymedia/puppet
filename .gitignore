@@ -2,7 +2,7 @@ inactive_modules
 auth.conf
 fileserver.conf
 puppet.conf
-templates/
+/templates/
 modules/apache
 modules/concat
 modules/stdlib
