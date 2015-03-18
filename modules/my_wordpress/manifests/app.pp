@@ -28,4 +28,12 @@ class my_wordpress::app {
         class {
                 'my_wordpress::conf':
         }
+
+	#ensure_packages (
+        #	'curl'
+	#)
+
+	class {
+		'my_wordpress::install_wp_cli':
+	}
 }
