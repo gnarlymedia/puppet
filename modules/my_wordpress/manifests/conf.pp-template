@@ -1,0 +1,17 @@
+class my_wordpress::conf {
+	$docroot_owner = ""
+	$docroot_group = ""
+
+   	$wp_user = ""
+   	$wp_group = ""
+
+	# MySQL
+	$root_password = ""
+
+    	$db_user_password = ""
+    	$db_host = "localhost"
+
+	$site_title_suffix = ""
+	$wp_password = ""
+	$admin_email_prefix = "info"
+}

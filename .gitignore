@@ -1,0 +1,14 @@
+inactive_modules
+auth.conf
+fileserver.conf
+puppet.conf
+templates/
+modules/apache
+modules/concat
+modules/stdlib
+modules/wordpress
+modules/my_wordpress/manifests/conf.pp
+modules/my_wordpress/manifests/create_vhost.pp
+environments/example_env
+environments/production/modules/mysql
+environments/production/modules/staging
