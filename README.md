@@ -2,7 +2,7 @@
 
 This is a framework I have developed to automate the deployment of WordPress websites on my VPS hosting.
 
-With one line of code, I can install Apache, MySQL and PHP on an agent node, make sure all required dependencies are up to date, and create a new WordPress site complete with Apache vhost configuration and all plugins and themes up-to-date.
+With one line of code, I can install Apache, MySQL and PHP on an agent node, make sure all required dependencies are present, and create a new WordPress site complete with Apache vhost configuration and all plugins and themes up-to-date.
 
 It requires a standard puppet setup with master and at least one agent, as outlined on the PuppetLabs website at https://puppetlabs.com.
 
